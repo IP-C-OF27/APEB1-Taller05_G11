@@ -6,11 +6,10 @@ import java.util.Scanner;
  * @version 1.0
  */
 public class Ejercicio01_EdadVotar {
-    //AQUÍ AGREGUE TODO SU CÓDIGO...
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);    
         int edad;
-        System.out.println("Ingrese la edad");
+        System.out.println("Ingrese la edad: ");
         edad = tcl.nextInt();
         if (edad >=16){
         System.out.println("Legible para votar");
@@ -21,5 +20,10 @@ public class Ejercicio01_EdadVotar {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+Ingrese la edad
+18
+Legible para votar
+BUILD SUCCESSFUL (total time: 4 seconds)
+
  */
