@@ -20,7 +20,6 @@ public class Ejercicio06_categoriaEdad {
         }else{
             System.out.println("Edad no válida");
         } 
-            
     }
 }
 /***

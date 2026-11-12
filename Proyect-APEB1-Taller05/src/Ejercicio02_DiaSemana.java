@@ -1,8 +1,7 @@
-
 import java.util.Scanner;
-
 /**
- * Ejercicio 02:  Día de la semana: Mostrar el nombre del día de la semana en función del número ingresado (1 para lunes, 2 para martes, etc.).
+ * Ejercicio 02:  Día de la semana: Mostrar el nombre del día de la semana en
+ * función del número ingresado (1 para lunes, 2 para martes, etc.).
  * @author Guaman Domenica y Macas Katherin
  * @version 1.0
  */
@@ -11,7 +10,7 @@ public class Ejercicio02_DiaSemana {
         Scanner tcl = new Scanner(System.in);
         int dia;
         String msjDia;
-        System.out.print("Ingrese un numero (1-7)");
+        System.out.print("Ingrese un numero (1-7): ");
         dia = tcl.nextInt();
         switch (dia) {
             case 1: 
@@ -38,13 +37,12 @@ public class Ejercicio02_DiaSemana {
             default: 
                 msjDia = "Error";
             }// Fin sentencia de seleccion multiple
-        System.out.println("El nro: "+ dia + "corresponde a:  "+ msjDia);
+        System.out.println("El nro: "+ dia + " corresponde a: "+ msjDia);
          }// fin del main
-    
-     }// fin de la clase
-        
-
+        }// fin de la clase
 /***
- * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+Ingrese un numero (1-7): 4
+El nro: 4 corresponde a: Jueves
+BUILD SUCCESSFUL (total time: 2 seconds)
  */
